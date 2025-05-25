@@ -1,0 +1,15 @@
+html{
+    overflow:scroll;
+}
+.menu-bar{
+    min-height:600px;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    color:white;
+    padding-top:30px;
+    gap:70px;
+    font-size:20px;
+    font-weight:bold;
+
+}
