@@ -1,15 +1,45 @@
-html{
-    overflow:scroll;
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    scroll-behavior: smooth; 
+    overflow-y:scroll;
 }
-.menu-bar{
-    min-height:600px;
-    background-color:black;
-    display:flex;
-    justify-content:center;
-    color:white;
-    padding-top:30px;
-    gap:70px;
-    font-size:20px;
-    font-weight:bold;
 
+/* --- Hero Section Styling --- */
+.menu {
+   color:white;
+   display:flex;
+   justify-content: center;
+   gap:70px;
+   padding:30px;
+   font-weight:bold;
+}
+.hero-section{
+    position:relative;/*for absolute children*/
+    background-color:black;
+    height:100vh;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.vid1{
+    overflow:hidden;
+    object-fit:cover;
+    min-height:300px;
+    padding-bottom:20px;
+    width:97%;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:3%;
+    
+
+    
+}
+.content{
+    color:white;
+   
 }
