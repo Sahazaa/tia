@@ -7,16 +7,20 @@ html, body {
     overflow-y:scroll;
 }
 
-/* --- Hero Section Styling --- */
+
 .menu {
-   
+   position:absolute;
    color:white;
    display:flex;
-   justify-content: center;
-   gap:20%;;
-   padding:30px;
+   justify-content:center;
+   gap:20%;
+   font-size:105%;
    font-weight:bold;
-   z-index:2;
+   z-index:3;
+   top:4%;
+  
+   
+
   
 }
 .hero-section{
@@ -28,7 +32,10 @@ html, body {
     flex-direction:column;
     justify-content:space-between;
     align-items:center;
-    padding-top:5%;
+    padding-top:5%; 
+    box-sizing:border-box;
+   padding-bottom:20%;
+   
    
     
     
@@ -45,7 +52,12 @@ html, body {
     padding-right:20px;
     border-radius:2%;
     z-index:1;
-    padding-bottom:50%;
+    height:87%;
+    margin-top:0%;
+    
+    
+    
+    
    
     
 
