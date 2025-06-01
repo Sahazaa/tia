@@ -34,7 +34,8 @@ html, body {
     align-items:center;
     padding-top:5%; 
     box-sizing:border-box;
-   padding-bottom:20%;
+    padding-bottom:0.5%;
+   
    
    
     
@@ -52,8 +53,9 @@ html, body {
     padding-right:20px;
     border-radius:2%;
     z-index:1;
-    height:87%;
+    height:97%;
     margin-top:0%;
+    
     
     
     
@@ -68,23 +70,35 @@ html, body {
     bottom:0;
     color:white;
     background-color:  rgba(0, 0, 0, 0.4);
+    z-index:1;
     display:flex;
     flex-direction:column;
+    justify-content:center;
     align-items:flex-start;
-    justify-content:flex-start;
-    z-index:1;
+    margin-left:3% ;
+    margin-bottom:7%;
     
 }
 
 .h1{
     font-size:500%;
      font-family: "Share Tech" , sans-serif;
-     font-weight:bold;
+     margin:0;
 }
 .list{
     font-family: "Share Tech" , sans-serif;
-    font-size:100%;
+    font-size:110%;
+    margin:0;
 }
 .paragraph{
     font-size:150%;
+}
+.vid-wrapper{
+    
+     padding:0;
+     width:100%;
+     height:100vh;
+     overflow:hidden;
+     
+    
 }
