@@ -165,7 +165,7 @@ font-size:325%;
 }
 .scroll-container{
     display:flex;
-    gap:50px;
+    gap:30px;
     overflow:hidden;
     white-space:nowrap;
    
@@ -180,12 +180,27 @@ font-size:325%;
     border-radius:10px;
     animation:scroll 30s linear infinite;
 }
-
+.imagehealth{
+    height:350px;
+     animation:scrolli 25s linear infinite ;
+}
+.imagefinances{
+    height:350px;
+    animation:scrolli 20s linear infinite;
+}
 @keyframes scroll{
     0%{
         transform:translateX(0%);
     }
     100%{
-        transform:translateX(-300%);
+        transform:translateX(-455%);
+    }
+}
+@keyframes scrolli{
+    0%{
+        transform:translateX (0%);
+    }
+    100%{
+        transform:translateX(-800%);
     }
 }
