@@ -176,15 +176,15 @@ font-size:325%;
 .image{
     margin-top:5%;
     width:35%;
-    height:0%;
     border-radius:10px;
     animation:scroll 30s linear infinite;
 }
-.imageheafi{
-    height:350px;
+.image1{
     margin-top:5%;
+    width:35%;
     border-radius:10px;
-     animation:scroll 30s linear infinite ;
+    animation:scrolli 20s linear infinite;
+
 }
 @keyframes scroll{
     0%{
@@ -192,6 +192,17 @@ font-size:325%;
     }
     100%{
         transform:translateX(-445%);
-        visibility:hidden;
+        
+       
+    }
+}
+@keyframes scrolli{
+    0%{
+        transform:translateX(0%);
+    }
+    100%{
+        transform:translateX(-700%);
+        
+       
     }
 }
