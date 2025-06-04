@@ -207,3 +207,10 @@ font-size:325%;
         transform:translateX(-700%);
     }
 }
+.contents{
+     margin-top:5%;
+    width:35%;
+    border-radius:10px;
+    animation:scroll 30s linear infinite;
+
+}
