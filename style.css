@@ -185,7 +185,7 @@ font-size:325%;
     margin-top:5%;
     width:35%;
     border-radius:10px;
-    animation:scrolli 15s linear infinite;
+    animation:scrolli 30s linear infinite;
 }
 
 @keyframes scroll{
@@ -193,7 +193,7 @@ font-size:325%;
         transform:translateX(0%);
     }
     100%{
-        transform:translateX(-445%);
+        transform:translateX(-462%);
         
        
     }
@@ -204,6 +204,6 @@ font-size:325%;
 
     }
     100%{
-        transform:translateX(-3000%);
+        transform:translateX(-700%);
     }
 }
