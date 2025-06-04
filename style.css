@@ -45,6 +45,8 @@ html, body {
     padding-top:5%;
     box-sizing:border-box;
     padding-bottom:0.5%;
+    margin-left:0;
+    margin-right:0;
    
    
    
@@ -183,9 +185,9 @@ font-size:325%;
     margin-top:5%;
     width:35%;
     border-radius:10px;
-    animation:scrolli 20s linear infinite;
-
+    animation:scrolli 15s linear infinite;
 }
+
 @keyframes scroll{
     0%{
         transform:translateX(0%);
@@ -199,10 +201,9 @@ font-size:325%;
 @keyframes scrolli{
     0%{
         transform:translateX(0%);
+
     }
     100%{
-        transform:translateX(-700%);
-        
-       
+        transform:translateX(-3000%);
     }
 }
