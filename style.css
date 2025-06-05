@@ -166,13 +166,16 @@ font-size:325%;
 
 }
 .scroll-container{
-    position:relative;
+   
     display:flex;
     gap:30px;
     overflow:hidden;
     white-space:nowrap;
    
    
+}
+.contents{
+    height:100vh;
 }
 .br{
     margin-top:2%;
@@ -185,7 +188,7 @@ font-size:325%;
 }
 .scroll-text{
     margin-top:5%;
-    animation:scroll 5s linear infinite;
+    animation:scroll 30s linear infinite;
 }
 .image1{
     margin-top:5%;
