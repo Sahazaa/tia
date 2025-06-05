@@ -171,6 +171,7 @@ font-size:325%;
     gap:30px;
     overflow:hidden;
     white-space:nowrap;
+    padding-bottom:60px;
    
    
 }
@@ -215,4 +216,14 @@ font-size:325%;
     100%{
         transform:translateX(-700%);
     }
+}
+.center{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.explanations{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    width:fit-content;
 }
