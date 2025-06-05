@@ -223,7 +223,12 @@ font-size:325%;
     align-items:center;
 }
 .explanations{
+    margin-top:5%;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
-    width:fit-content;
+    margin-left:5%;
+    margin-right:5%;
+}
+.notion{
+    font-size:150%;
 }
