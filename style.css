@@ -166,10 +166,12 @@ font-size:325%;
 
 }
 .scroll-container{
+    position:relative;
     display:flex;
     gap:30px;
     overflow:hidden;
     white-space:nowrap;
+   
    
 }
 .br{
@@ -180,6 +182,10 @@ font-size:325%;
     width:35%;
     border-radius:10px;
     animation:scroll 30s linear infinite;
+}
+.scroll-text{
+    margin-top:5%;
+    animation:scroll 5s linear infinite;
 }
 .image1{
     margin-top:5%;
@@ -206,11 +212,4 @@ font-size:325%;
     100%{
         transform:translateX(-700%);
     }
-}
-.contents{
-     margin-top:5%;
-    width:35%;
-    border-radius:10px;
-    animation:scroll 30s linear infinite;
-
 }
